@@ -1,0 +1,27 @@
+/**
+弹出框样式
+ */
+.Mask{
+	display: none;
+	position: absolute;
+	width:260px;
+	background-color: #91d5ff;
+	margin: 3% 40%;
+}
+.Mask input{
+            margin: 10px;
+        }
+.Mask button{
+            float: right;
+        }
+.maskTitle{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #1e628f;
+	color: white;
+}
+#closeMase:hover{
+	cursor: pointer;
+	color: red;
+}
